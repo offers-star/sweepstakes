@@ -1,1 +1,77 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter Our Sweepstakes to Win Big!</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			border-radius: 10px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 24px;
+			margin-bottom: 40px;
+			line-height: 1.5;
+		}
+		form {
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+		input[type="email"] {
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 5px;
+			border: none;
+			width: 60%;
+			margin-right: 10px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		}
+		button[type="submit"] {
+			padding: 10px 20px;
+			font-size: 18px;
+			background-color: #007bff;
+			color: #fff;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		}
+		button[type="submit"]:hover {
+			background-color: #0062cc;
+		}
+		footer {
+			font-size: 14px;
+			color: #999;
+			margin-top: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Enter Our Sweepstakes to Win Big!</h1>
+		<p>Enter your email address below for a chance to win our grand prize of $10,000! Plus, you'll be the first to know about our future promotions and deals.</p>
+		<form action="submit.php" method="post">
+			<input type="email" name="email" placeholder="Enter your email address" required>
+			<button type="submit">Enter Now</button>
+		</form>
+	</div>
+	<footer>Copyright © 2023. All rights reserved.</footer>
+</body>
+</html>
